@@ -1,5 +1,37 @@
-<div>
-  <h1 class="font-bold text-4xl">Home#index</h1>
-  <p>Find me in app/views/home/index.html.erb</p>
-</div>
+<%# render "nav" %>
 
+
+<section class="flex justify-between items-center m-4 shadow">
+  <div class="p-2 text-center w-full">
+    <h1 class="font-bold md:text-4xl">iCodethis</h1>
+    <p></p>
+  </div>
+  <nav class="flex justify-evenly *:border *:rounded-full *:p-2 m-2 *:mx-2 *:shadow-inner border-l p-2">
+    <div class=""> <%= link_to "iCodethis", "/icodethis" %> </div>
+    <div><%= link_to "Home", "http://daystrom-4:3000" %></div>
+  </nav>
+</section>
+
+<%# render "social_profile" %>
+<%# render "bday_list2" %>
+
+<%# 20250103-social_login %>
+<%# render "social_login" %>
+
+<%# 20250101-User_feedback %>
+<%# render "user_feedback" %>
+
+<%# 20241230-Media player %>
+<%# render "media_player" %>
+
+<%# 20240214-Users List %>
+<%# render "users_list" %>
+
+<%# 20240212-User Authentication %>
+<%# render "user_authentication" %>
+
+<%# 20240212-Subscription-plan %>
+<%# render "subscription_plan" %>
+
+<%# _20250115_profile_header.html.erb %>
+<%= render "20250115_profile_header" %>
