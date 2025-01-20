@@ -81,7 +81,7 @@ GEM
       racc
     builder (3.3.0)
     coderay (1.1.3)
-    concurrent-ruby (1.3.4)
+    concurrent-ruby (1.3.5)
     connection_pool (2.5.0)
     crass (1.0.6)
     date (3.4.1)
@@ -101,7 +101,7 @@ GEM
       raabro (~> 1.4)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    i18n (1.14.6)
+    i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     io-console (0.8.0)
     irb (1.14.3)
@@ -151,9 +151,9 @@ GEM
       net-protocol
     net-ssh (7.3.0)
     nio4r (2.7.4)
-    nokogiri (1.18.1-aarch64-linux-gnu)
+    nokogiri (1.18.2-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.1-x86_64-linux-gnu)
+    nokogiri (1.18.2-x86_64-linux-gnu)
       racc (~> 1.4)
     ostruct (0.6.1)
     parallel (1.26.3)
@@ -173,7 +173,7 @@ GEM
       yard (~> 0.9.11)
     pry-rails (0.3.11)
       pry (>= 0.13.0)
-    psych (5.2.2)
+    psych (5.2.3)
       date
       stringio
     puma (6.5.0)
@@ -227,7 +227,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    rdoc (6.10.0)
+    rdoc (6.11.0)
       psych (>= 4.0.0)
     regexp_parser (2.10.0)
     reline (0.6.0)
@@ -282,7 +282,7 @@ GEM
       net-ssh (>= 2.8.0)
       ostruct
     stringio (3.1.2)
-    tailwindcss-rails (3.2.0)
+    tailwindcss-rails (3.3.0)
       railties (>= 7.0.0)
       tailwindcss-ruby
     tailwindcss-ruby (3.4.17-aarch64-linux)
